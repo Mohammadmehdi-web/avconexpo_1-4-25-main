@@ -16,9 +16,9 @@
                                 </p>
                                 <div class="social-icon d-flex align-items-center">
                                     <a href="https://www.facebook.com/people/AVCONEXPO/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><img width="20" height="20" src="https://img.icons8.com/ios-filled/100/FFFFFF/twitterx--v2.png" alt="twitterx--v2"/></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.linkedin.com/company/avconexpo/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                   
                                 </div>
                             </div>
                         </div>

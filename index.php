@@ -7,8 +7,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author"/>
-    <meta name="description"/>
+    <meta name="author" />
+    <meta name="description" />
     <!-- ======== Page title ============ -->
     <title>Avconexpo | Global Engineering & Technology, Trading and Sourcing Solution Company.</title>
     <!--<< Favcion >>-->
@@ -33,86 +33,20 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"/>
-    <!-- <style>
-        .hero-section-4::before {
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
 
-            background: none !important;
-        }
-
-        .header-top-section.style-bg::before {
-
-            left: 0px;
-
-        }
-
-        .header-3.header-4 .header-logo-2 {
-            display: block !important;
-        }
-
-        .hero-section-4 .array-button .array-prevs,
-        .hero-section-4 .array-button .array-nexts {
-            width: 50px !important;
-        }
-
-        .left-arrow-btn-div {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            height: 100%;
-        }
-
-        .right-arrow-btn-div {
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            height: 100%;
-        }
-
-        .left-arrow-btn-div button,
-        .right-arrow-btn-div button {
-            height: 100% !important;
-            background-color: #ffffff21 !important;
-        }
-
-        @media screen and (max-width:1500px) {
-
-            .hero-section-4 .array-button .array-prevs,
-            .hero-section-4 .array-button .array-nexts {
-                width: 40px !important;
-            }
-        }
-
-        @media (max-width: 1199px) {
-            .hero-section-4 .array-button {
-                display: block !important;
-            }
-
-            .left-arrow-btn-div button,
-            .right-arrow-btn-div button {
-                height: 100% !important;
-                background: none !important;
-            }
-
-            .left-arrow-btn-div button i,
-            .right-arrow-btn-div button i {
-                font-size: 30px;
-            }
-        }
-
-        @media screen and (max-width:1500px) {}
-
-        @media screen and (max-width:1500px) {}
-    </style> -->
     <style>
         .about-service-meta .meta-box::before {
-            display:none;
+            display: none;
         }
-        @media (min-width:1200px){
+
+        @media (min-width:1200px) {
             .intro-container-wrapper.style3 .slider-image {
                 height: 100vh;
             }
         }
+
         .text-justify {
             text-align: justify;
         }
@@ -132,12 +66,13 @@
         .hero-4 .hero-content h1 {
             font-size: 45px;
         }
-        
+
         .testimonial-card.style3 .testimonial-header .profile .thumb img {
             max-width: 86%;
-        
+
         }
-       .select2-results {
+
+        .select2-results {
             height: 200px;
         }
 
@@ -145,51 +80,76 @@
             width: 100%;
             height: 200px;
         }
+
         .blog-card.style1 .blog-content .content h4 a {
-        font-size: 18px;
+            font-size: 18px;
         }
-        .content h3 a{
-            text-Transform:lowercase;
+
+        .content h3 a {
+            text-Transform: lowercase;
+        }
+
+        .maxw-470 {
+            max-width: 479px;
+        }
+
+        .service-card.style1 .content .text {
+            text-align: justify;
+        }
+
+        .about-service-meta .meta-box .counter {
+            text-align: center;
+        }
+
+        .profile-meta .thumb img {
+            height: 90px;
+            width: 90px;
+        }
+
+        .testimonial-wrapper.style1 .testimonialSliderOne .swiper-slide.swiper-slide-active .testimonial-card.style1 .testimonial-content {
+            background-color: #fff;
+            box-shadow: none;
         }
     </style>
 </head>
 
 <body>
 
-   <?php
+    <?php
     include('header.php');
-   ?>
+    ?>
 
     <!-- Intro Section S T A R T -->
     <section class="intro-section fix">
         <div class="swiper hero-slider-3">
             <div class="swiper-wrapper">
                 <?php
-					include('db_con.php');
-					$result = $con->query("SELECT image_path, details FROM banners_projects");
+                include('db_con.php');
+                $result = $con->query("SELECT image_path, details FROM banners_projects");
 
-					while ($row = $result->fetch_assoc()):
-                ?>
-                <div class="swiper-slide">
-                    <div class="intro-container-wrapper style3">
-                        <div class="slider-image bg-cover" style="background-image: url('admin/<?php echo ($row['image_path']); ?>');"></div>
-                        <div class="container-fluid">
-                            <div class="intro-wrapper style3">
-                                <div class="intro-content">
-                                    <h1 data-animation="fadeInUp" data-delay="1.3s">
-                                    <?php echo ($row['details']); ?>
-                                        
-                                    </h1>
-                                    <img src="assets/img/icon/hero3ArrowIcon.svg" alt="icon" data-animation="fadeInUp"
-                                        data-delay="1.4s" />
-                                    <span class="big-text" data-animation="fadeInUp" data-delay="1.4s">AVCONEXPO</span>
+                while ($row = $result->fetch_assoc()):
+                    ?>
+                    <div class="swiper-slide">
+                        <div class="intro-container-wrapper style3">
+                            <div class="slider-image bg-cover"
+                                style="background-image: url('admin/<?php echo ($row['image_path']); ?>');"></div>
+                            <div class="container-fluid">
+                                <div class="intro-wrapper style3">
+                                    <div class="intro-content">
+                                        <h1 data-animation="fadeInUp" data-delay="1.3s">
+                                            <?php echo ($row['details']); ?>
 
-                                    
+                                        </h1>
+                                        <img src="assets/img/icon/hero3ArrowIcon.svg" alt="icon" data-animation="fadeInUp"
+                                            data-delay="1.4s" />
+                                        <span class="big-text" data-animation="fadeInUp" data-delay="1.4s">AVCONEXPO</span>
+
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <?php endwhile; ?>
             </div>
         </div>
@@ -236,60 +196,76 @@
                                     Transform Your Business with Expert Solutions
                                 </h2>
                                 <p class="text wow fadeInUp text-justify" data-wow-delay=".5s">
-                                AVCONEXPO is a global Engineering-Technology, Trading-Sourcing, and Architecture-Design solution company, delivering comprehensive services across industries.
-                                We take pride in offering cutting-edge engineering solutions through a dynamic team of Consultants, Technologists, Engineers, Architects, Energy Conservators, System/Process Engineers, and other Professionals.
-<!-- We’ve been in the business for more than a
-                                    decade now and have built an operation predicated on
-                                    constant refinement and relentless growth.-->
+                                    AVCONEXPO is a global Engineering-Technology, Trading-Sourcing, and
+                                    Architecture-Design solution company, delivering comprehensive services across
+                                    industries.
+
+                                </p>
+                                <p class="text wow fadeInUp text-justify mt-2" data-wow-delay=".5s">
+                                    We take pride in offering cutting-edge engineering solutions through a dynamic team
+                                    of Consultants, Technologists, Engineers, Architects, Energy Conservators,
+                                    System/Process Engineers, and other Professionals.
                                 </p>
                             </div>
                             <ul class="list-title wow fadeInUp" data-wow-delay=".3s">
-                                <li style="font-size:16px">
-                                    <div style="display: flex;gap: 5px; ">
-                                    <img class="mt-1" width="20" height="20" src="https://img.icons8.com/windows/50/approval.png"
-                                        alt="approval" />
-                                        <span>Turnkey Project Execution </span>
-                                       
+                                <div class="row d-flex">
+                                    <div class="col-lg-6">
+                                        <li style="font-size:15px">
+                                            <div style="display: flex;gap: 5px; ">
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/windows/50/approval.png"
+                                                    alt="approval" />
+                                                <span>Turnkey Project Execution. </span>
+
+                                            </div>
+
+                                        </li>
+                                        <li style="font-size:15px">
+
+                                            <div style="display: flex;gap: 5px; ">
+                                                <img class="mt-1" width="20" height="20"
+                                                    src="https://img.icons8.com/windows/50/    approval.png"
+                                                    alt="approval" />
+                                                <span> EPC & Technical Consultancy.</span>
+                                            </div>
+
+                                        </li>
+                                        <li style="font-size:15px">
+                                            <div style="display: flex;gap: 5px; ">
+                                                <img class="mt-1" width="20" height="20"
+                                                    src="https://img.icons8.com/windows/50/approval.png"
+                                                    alt="approval" />
+                                                <span>Greenfield & Brownfield Projects. </span>
+                                            </div>
+
+                                        </li>
                                     </div>
+                                    <div class="col-lg-6">
+                                        <li style="font-size:15px">
+                                            <div style="display: flex;gap: 5px; ">
+                                                <img class="mt-1" width="20" height="20"
+                                                    src="https://img.icons8.com/windows/50/approval.png"
+                                                    alt="approval" />
+                                                <span>Process Optimization & Energy Audits.
+                                                </span>
+                                            </div>
 
-                                </li>
-                                 <li style="font-size:16px">
+                                        </li>
+                                        <li style="font-size:15px">
+                                            <div style="display: flex;gap: 5px; ">
+                                                <img class="mt-1" width="20" height="20"
+                                                    src="https://img.icons8.com/windows/50/approval.png"
+                                                    alt="approval" />
+                                                <span>Global Supply Chain Management.
 
-                                    <div style="display: flex;gap: 5px; ">
-                                        <img class="mt-1" width="20" height="20" src="https://img.icons8.com/windows/50/    approval.png"
-                                            alt="approval" />
-                                            <span> EPC & Technical Consultancy</span>
+                                                </span>
+                                            </div>
+
+                                        </li>
                                     </div>
-                                    
-                                </li>
-                                 <li style="font-size:16px">
-                                 <div style="display: flex;gap: 5px; ">
-                                    <img class="mt-1"  width="20" height="20" src="https://img.icons8.com/windows/50/approval.png"
-                                        alt="approval" />
-                                        <span>Greenfield & Brownfield Projects </span>
-                                 </div>
-                                    
-                                </li>
-                                <li style="font-size:16px">
-                                 <div style="display: flex;gap: 5px; ">
-                                    <img class="mt-1"  width="20" height="20" src="https://img.icons8.com/windows/50/approval.png"
-                                        alt="approval" />
-                                        <span>Process Optimization & Energy Audits
-                                        </span>
-                                 </div>
-                                    
-                                </li>
-                                <li style="font-size:16px">
-                                 <div style="display: flex;gap: 5px; ">
-                                    <img class="mt-1"  width="20" height="20" src="https://img.icons8.com/windows/50/approval.png"
-                                        alt="approval" />
-                                        <span>Global Supply Chain Management 
+                                </div>
 
-                                        </span>
-                                 </div>
-                                    
-                                </li>
-                                
+
                             </ul>
                             <a class="theme-btn wow fadeInUp" data-wow-delay=".5s" href="avconexpo_test/about.php">
                                 Read more <i class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
@@ -301,7 +277,7 @@
     </section>
 
     <!-- our services -->
-      <!-- Service Section S T A R T -->
+    <!-- Service Section S T A R T -->
     <section class="service-section section-padding section-bg fix">
         <div class="service-container-wrapper style1">
             <div class="shape">
@@ -311,10 +287,10 @@
                 <div class="section-title maxw-470 text-center mx-auto">
                     <span class="subtitle wow fadeInUp">
                         <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />Our Services
-                        
+
                     </span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                    Engineering Brilliance, Architectural Perfection
+                        Engineering Brilliance, Architectural Perfection
                     </h2>
                 </div>
                 <div class="service-wrapper style1">
@@ -327,10 +303,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Business & Technical Consultancy
+                                        Business & Technical Consultancy
                                     </h4>
                                     <p class="text">
-                                    Our seasoned engineers boast extensive years of experience in the various domains.
+                                        At AVCONEXPO, we offer expert Business & Technical Consultancy services, helping
+                                        organizations optimize their operations, strategies, and technical processes.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_1"></i></div>
                                 </div>
@@ -344,10 +321,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Project Management
+                                        Project Management
                                     </h4>
                                     <p class="text">
-                                    AVCONEXPO leverages its extensive expertise in engineering, procurement, construction, and design services.
+                                        At AVCONEXPO, we provide end-to-end project management solutions, ensuring
+                                        seamless execution from concept to completion.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -361,10 +339,12 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Architecture & Designing
+                                        Architecture & Designing
                                     </h4>
                                     <p class="text">
-                                    Our architecture team strives to create design solutions that suit the needs of the client and the community. 
+                                        Our expert architects and designers focus on creating modern, innovative, and
+                                        efficient spaces that align with our clients' visions and functional
+                                        requirements.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
                                 </div>
@@ -378,10 +358,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Startup Accelerator
+                                        Startup Accelerator
                                     </h4>
                                     <p class="text">
-                                    At AVCONEXPO, we're dedicated to nurturing startups on their path to success. With a decade of experience in Engineering, Technology, and Trading.
+                                        At AVCONEXPO, we empower startups and entrepreneurs with strategic guidance,
+                                        funding support, and essential business development resources.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_1"></i></div>
                                 </div>
@@ -395,10 +376,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Reviving Sick Industries
+                                        Reviving Sick Industries
                                     </h4>
                                     <p class="text">
-                                    In a Capitalist economy wherein competitive forces have a free play, the sickness problem usually does not invite state attention or State intervention. 
+                                        AVCONEXPO revives struggling industries by implementing strategic interventions,
+                                        operational restructuring, and financial turnaround solutions.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -412,10 +394,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Waste Management
+                                        Waste Management
                                     </h4>
                                     <p class="text">
-                                    Enery Recovery Technology - Zero-Residue Conversion of Unsegregated Municipal Solid Waste & Hazardous Bio-medical Waste using ERT.
+                                        At AVCONEXPO, we are committed to sustainable waste management solutions,
+                                        ensuring environmental responsibility and resource efficiency.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -429,10 +412,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Agriculture & Horticulture
+                                        Agriculture & Horticulture
                                     </h4>
                                     <p class="text">
-                                    Agriculture & Horticulture involves the planning, design, development, and maintenance of green spaces, gardens, parks, and urban landscapes.
+                                        AVCONEXPO supports modern and sustainable agricultural and horticultural
+                                        practices, ensuring high productivity and environmental responsibility.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -446,10 +430,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Talent Management
+                                        Talent Management
                                     </h4>
                                     <p class="text">
-                                    We are a premier provider of top talent at all levels, founded and managed by a team of senior industry professionals with decades of experience.
+                                        At AVCONEXPO, we specialize in identifying, developing, and retaining top talent
+                                        to drive organizational success and long-term growth.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -464,10 +449,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                    Ecotourism
+                                        Ecotourism
                                     </h4>
                                     <p class="text">
-                                    AVCONEXPO offers its clients comprehensive and satisfying sourcing solutions, with the help of its well-connected network of manufacturing.
+                                        By integrating responsible travel practices, AVCONEXPO ensures that tourism
+                                        remains a force for good, benefiting both the environment and local communities.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
                                 </div>
@@ -478,238 +464,6 @@
             </div>
         </div>
     </section>
-
-
-
-    <!-- Marquee Section 
-    <div class="marquee-section mb-5">
-        <div class="mycustom-marque">
-            <div class="scrolling-wrap">
-                <div class="comm style1">
-                    <div class="cmn-textslide style2">Innovate Boldly</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Your Vision, Our Mission!</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Innovate. Lead. Dominate!</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Smart Solutions</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="comm style1">
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Your Vision, Our Mission!</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Innovate. Lead. Dominate!</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Smart Solutions</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="comm style1">
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Your Vision, Our Mission!</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Innovate. Lead. Dominate!</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Smart Solutions</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
-
-
-    <!-- Service Section -->
-    <section class="service-section fix section-padding section-bg mt-5">
-        <div class="container custom-container-2">
-            <div class="service-wrapper-4">
-                <div class="row g-5">
-                    <div class="col-lg-5">
-                        <div class="service-left-content">
-                            <div class="section-title">
-                                <span class="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg"
-                                        alt="icon" />Our Services</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Engineering Brilliance, Architectural Perfection
-                                </h2>
-                            </div>
-                            <ul class="service-list">
-                                <li>End-to-End Industrial Solutions for Global Clients</li>
-                                <li>Expert Business Consultancy for Sustainable Growth</li>
-                                <li>Customized Solutions for Government & Private Sectors</li>
-                            </ul>
-                            <a class="theme-btn" href="avconexpo_test/services.php">
-                                Read more <i class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row g-4">
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="service-box-items wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/06.svg" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h3>
-                                            <a href="avconexpo_test/business-technical-consulting.php">Business Consultancy</a>
-                                        </h3>
-                                        <p>
-                                            At Avconexpo, our seasoned engineers boast extensive
-                                            years of experience in the various domains of
-                                            engineering we specialize in.Our dedicated consulting
-                                        </p>
-                                        <div class="link">
-                                            <a href="avconexpo_test/business-technical-consulting.php">Explore More
-                                                <i class="fa-solid fa-arrow-up-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="service-box-items wow fadeInUp" data-wow-delay=".4s">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/07.svg" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h3>
-                                            <a href="avconexpo_test/project-management.php">Project Management</a>
-                                        </h3>
-                                        <p>
-                                            Avconexpo leverages its extensive expertise in
-                                            engineering & design services capabilities with
-                                            excellent domain knowledge and technical know-how to
-                                            provide
-                                        </p>
-                                        <div class="link">
-                                            <a href="avconexpo_test/project-management.php">Explore More
-                                                <i class="fa-solid fa-arrow-up-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="service-box-items wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/08.svg" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h3>
-                                            <a href="avconexpo_test/trading-sourcing.php">Trading & Sourcing</a>
-                                        </h3>
-                                        <p>
-                                            Avconexpo offers its clients comprehensive and
-                                            satisfying sourcing solutions, with the help of its
-                                            well-connected network of manufacturing companies and
-                                            infrastructure.
-                                        </p>
-                                        <div class="link">
-                                            <a href="avconexpo_test/trading-sourcing.php">Explore More
-                                                <i class="fa-solid fa-arrow-up-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="service-box-items wow fadeInUp" data-wow-delay=".7s">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/09.svg" alt="img" />
-                                    </div>
-                                    <div class="content">
-                                        <h3>
-                                            <a href="avconexpo_test/architecture-design.php">Architecture & Design</a>
-                                        </h3>
-                                        <p>
-                                            Our architecture team strives to create design solutions
-                                            that suit the needs of the client and the community
-                                            while considering their effects on the environment.
-                                        </p>
-                                        <div class="link">
-                                            <a href="avconexpo_test/architecture-design.php">Explore More
-                                                <i class="fa-solid fa-arrow-up-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 
     <!-- Achievement Section S T A R T -->
     <div class="achievement-section bg-color3 fix">
@@ -728,7 +482,7 @@
                                         <img width="50" height="50"
                                             src="https://img.icons8.com/ios-filled/50/FFFFFF/worldwide-location--v1.png"
                                             alt="worldwide-location--v1" />
-                                        <span class="counter-number"> 15 </span>
+                                        <span class="counter-number"> 10 </span>
                                     </div>
                                     <p class="text text-capitalize">Global Presence</p>
                                 </div>
@@ -737,7 +491,7 @@
                                         <img width="50" height="50"
                                             src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/FFFFFF/external-star-success-flatart-icons-solid-flatarticons.png"
                                             alt="star-success" />
-                                        <span class="counter-number"> 35 </span>+
+                                        <span class="counter-number"> 12 </span>+
                                     </div>
                                     <p class="text text-capitalize">Years Of Experience</p>
                                 </div>
@@ -746,9 +500,9 @@
                                         <img width="50" height="50"
                                             src="https://img.icons8.com/comic/100/FFFFFF/facebook-like.png"
                                             alt="facebook-like" />
-                                        <span class="counter-number"> 100 </span>%
+                                        <span class="counter-number"> 10 </span>+
                                     </div>
-                                    <p class="text text-capitalize">Satisfaction</p>
+                                    <p class="text text-capitalize">sectors expertise</p>
 
                                 </div>
                             </div>
@@ -774,13 +528,12 @@
                 <img src="assets/img/shape/serviceShape1_1.png" alt="shape" />
             </div>
             <div class="container">
-                <div class="section-title maxw-470 text-center mx-auto">
+                <div class="section-title maxw-490 text-center mx-auto">
                     <span class="subtitle wow fadeInUp">
-                        <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />What We
-                        Do
+                        <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />Sectors
                     </span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        Our General Business Principles.
+                        Exploring Limitless Opportunities <br>Across Sectors
                     </h2>
                 </div>
                 <div class="service-wrapper style1">
@@ -793,12 +546,12 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                        Technical Expertise
+                                        Sugar & Distillery
                                     </h4>
                                     <p class="text">
-                                        We are backed by a pool of experienced Technologists,
-                                        Engineers, and Process Experts, delivering top-notch
-                                        engineering solutions across various industries.
+                                        Our expertise helps sugar mills and distilleries achieve higher efficiency,
+                                        reduce waste, and boost profitability while maintaining environmental
+                                        responsibility.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_1"></i></div>
                                 </div>
@@ -812,12 +565,12 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                        Diverse Industry Solutions
+                                        Dairy Industry
                                     </h4>
                                     <p class="text">
-                                        Our services cater to Plastic Factories, Power
-                                        Substations, Boilers, Refineries, and Manufacturing
-                                        Plants, offering customized solutions for each sector.
+                                        At AVCONEXPO, we provide end-to-end solutions to enhance efficiency, hygiene,
+                                        and productivity in the Dairy Industry. Our expertise ensures modern,
+                                        sustainable, and profitable dairy operations.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -831,12 +584,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                        Innovative Utility Solutions
+                                        Cement Industry
                                     </h4>
                                     <p class="text">
-                                        From Water Treatment Plants to Chilled Water Systems, we
-                                        specialize in sizing utilities, piping, and electrical
-                                        systems to ensure maximum efficiency.
+                                        With AVCONEXPO's expertise, cement manufacturers can achieve higher
+                                        productivity, lower environmental impact, and greater profitability.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
                                 </div>
@@ -850,12 +602,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                        Complete Lab Setup
+                                        Beverages Industry
                                     </h4>
                                     <p class="text">
-                                        We provide Laboratory Solutions with all necessary
-                                        equipment and human resources, enhancing operational
-                                        capabilities across industries.
+                                        At AVCONEXPO, we provide cutting-edge solutions for the Beverages Industry,
+                                        ensuring quality, efficiency, and sustainability in production and distribution.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_1"></i></div>
                                 </div>
@@ -869,12 +620,11 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                        Heavy Industrial Solutions
+                                        Edible Oil Industry
                                     </h4>
                                     <p class="text">
-                                        With expertise in Mining, Packaging, and Industrial
-                                        Equipment, we deliver comprehensive solutions for heavy
-                                        industrial projects.
+                                        At AVCONEXPO, we provide end-to-end solutions for the Edible Oil Industry,
+                                        focusing on efficiency, quality, and sustainability in production and supply.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
                                 </div>
@@ -888,12 +638,91 @@
                                 </div>
                                 <div class="content">
                                     <h4>
-                                       Industry-Specific Expertise
+                                        Paper and Pulp Industry
                                     </h4>
                                     <p class="text">
-                                        Our team of specialized engineers and technologists
-                                        provides tailored solutions for Plastic Factories, Power
-                                        Plants, Refineries, and Manufacturing Units.
+                                        At AVCONEXPO, we deliver innovative and sustainable solutions for the Paper and
+                                        Pulp Industry, enhancing efficiency, quality, and environmental responsibility.
+                                    </p>
+                                    <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card style1 wow fadeInUp" data-tilt data-tilt-max="15"
+                                data-wow-delay="0.2s">
+                                <div class="thumb">
+                                    <img src="assets/img/service/serviceCardThumb1_4.jpg" alt="thumb" />
+                                </div>
+                                <div class="content">
+                                    <h4>
+                                        Packaging Industry
+                                    </h4>
+                                    <p class="text">
+                                        At AVCONEXPO, we deliver advanced solutions for the Packaging Industry,
+                                        enhancing efficiency, sustainability, and innovation in packaging design and
+                                        production.
+                                    </p>
+                                    <div class="icon"><i class="icon-serviceIcon1_1"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card style1 wow fadeInUp" data-tilt data-tilt-max="15"
+                                data-wow-delay="0.4s">
+                                <div class="thumb">
+                                    <img src="assets/img/service/serviceCardThumb1_5.jpg" alt="thumb" />
+                                </div>
+                                <div class="content">
+                                    <h4>
+                                        Utilities & Infrastructure
+                                    </h4>
+                                    <p class="text">
+                                        At AVCONEXPO, we focus on developing, optimizing, and modernizing utilities and
+                                        infrastructure, ensuring sustainable growth and efficient resource management
+                                        for long-term success.
+                                    </p>
+                                    <div class="icon"><i class="icon-serviceIcon1_2"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card style1 wow fadeInUp" data-tilt data-tilt-max="15"
+                                data-wow-delay="0.7s">
+                                <div class="thumb">
+                                    <img src="assets/img/service/serviceCardThumb1_6.jpg" alt="thumb" />
+                                </div>
+                                <div class="content">
+                                    <h4>
+                                        FMCG
+                                    </h4>
+                                    <p class="text">
+                                        At AVCONEXPO, we empower FMCG businesses by optimizing production processes,
+                                        streamlining supply chains, and enhancing market competitiveness through
+                                        innovative solutions and strategic consulting.
+                                    </p>
+                                    <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card style1 wow fadeInUp" data-tilt data-tilt-max="15"
+                                data-wow-delay="0.7s">
+                                <div class="thumb">
+                                    <img src="assets/img/service/serviceCardThumb1_6.jpg" alt="thumb" />
+                                </div>
+                                <div class="content">
+                                    <h4>
+                                        Water & Wastewater Treatment
+                                    </h4>
+                                    <p class="text">
+                                        AVCONEXPO provides comprehensive industrial and municipal water treatment
+                                        solutions, covering the entire value chain. Our expertise includes river
+                                        rejuvenation, advanced water supply systems, sewage treatment, desalination
+                                        plants, and effluent treatment facilities, ensuring sustainable and efficient
+                                        water management.
                                     </p>
                                     <div class="icon"><i class="icon-serviceIcon1_3"></i></div>
                                 </div>
@@ -906,7 +735,7 @@
     </section>
 
     <!-- Brand Section S T A R T -->
-    <div class="brand-section section-padding pt-5 fix">
+    <div class="brand-section section-padding fix pb-120">
         <div class="brand-wrapper style1">
             <div class="container">
                 <div class="brand-title mb-5">
@@ -988,75 +817,70 @@
     </div>
 
 
+
     <!-- Testimonial Section S T A R T -->
-    <section class="testimonial-section bg-color1 fix">
+    <section class="testimonial-section bg-color1 fix pt-100 pb-100">
         <div class="container">
-            <div class="testimonial-wrapper style3">
-                <div class="row g-5">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="testimonial-thumb">
-                            <div class="thumb">
-                                <img src="assets/img/testimonial/testimonialThumb3_1.jpg" alt="thumb"
-                                    class="wow img-custom-anim-left">
+            <div class="testimonial-wrapper style1 margin-minus-bottom">
+                <div class="row g-4">
+                    <div class="col-xl-5 col-md-6">
+                        <div class="testimonial-content">
+                            <div class="section-title text-left">
+                                <span class="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg"
+                                        alt="icon">Clients Feedback</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Some Of Our Happy Clients Says</h2>
+                            </div>
+
+
+                            <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".4s">
+                                <button data-slider-prev="#testimonialSliderOne" class="slider-arrow slider-prev"><i
+                                        class="fa-sharp fa-regular fa-arrow-left-long"></i></button>
+                                <button data-slider-next="#testimonialSliderOne" class="slider-arrow slider-next"><i
+                                        class="fa-regular fa-arrow-right-long"></i></button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-6">
-                        <div class="slider-area testimonialSliderThree section-padding fix">
-                            <div class="section-title text-left mxw-412">
-                                <span class="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg"
-                                        alt="icon">Clients Feedback</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Some Of Our Happy Clients Says
-                                </h2>
-                            </div>
-
-                            <div class="swiper gt-slider" id="testimonialSliderThree"
-                                data-slider-options='{"loop": true,"autoplay": false,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1},"768":{"slidesPerView":1},"992":{"slidesPerView":1},"1200":{"slidesPerView":2}}}'>
+                    <div class="col-xl-7 col-md-6">
+                        <div class="slider-area testimonialSliderOne">
+                            <div class="swiper gt-slider" id="testimonialSliderOne"
+                                data-slider-options='{"loop": true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2},"768":{"slidesPerView":2},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
                                 <div class="swiper-wrapper">
                                     <?php
-									$result = $con->query("SELECT paragraph, name, address, image FROM add_price");
-									?>
+                                    $result = $con->query("SELECT paragraph, name, address, image FROM add_price");
+                                    ?>
                                     <?php while ($row = $result->fetch_assoc()): ?>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-card style3">
-                                            <div class="testimonial-header">
-                                                <div class="profile">
-                                                    <div class="thumb">
-                                                        <img src="admin/testimonials_uploads/<?php echo htmlspecialchars($row['image']); ?>"
-                                                            alt="thumb" width="100px">
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-card style1">
+                                                <div class="testimonial-content">
+                                                    <div class="icon-wrapper">
+                                                        <div class="star">
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                        </div>
+                                                        <div class="quote-icon"><img src="assets/img/icon/QuoteIcon1_1.svg"
+                                                                alt="ixon"></div>
                                                     </div>
-                                                    <div class="content">
-                                                        <div class="name"><?php echo htmlspecialchars($row['name']); ?></div>
+                                                    <p class="text"> <?php echo htmlspecialchars($row['paragraph']); ?></p>
+                                                    <div class="shape"><img
+                                                            src="assets/img/shape/testimonialCardShape1_1.png" alt="shape">
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p class="text">
-                                                <?php echo htmlspecialchars($row['paragraph']); ?>
-                                                </p>
+                                                <div class="profile-meta wow fadeInUp" data-wow-delay="0.5s">
+                                                    <div class="thumb"><img
+                                                            src="admin/testimonials_uploads/<?php echo htmlspecialchars($row['image']); ?>"
+                                                            alt="thumb"></div>
+                                                    <div class="content">
+                                                        <div class="name"><?php echo htmlspecialchars($row['name']); ?>
+                                                        </div>
 
-                                                <div class="icon-wrapper">
-                                                    <div class="star">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
                                     <?php endwhile; ?>
-                                </div>
-
-                                <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".4s">
-                                    <button data-slider-prev="#testimonialSliderThree"
-                                        class="slider-arrow slider-prev"><i
-                                            class="fa-sharp fa-regular fa-arrow-left-long"></i></button>
-                                    <button data-slider-next="#testimonialSliderThree"
-                                        class="slider-arrow slider-next"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -1091,7 +915,7 @@
                     </div>
 
                     <?php
-                    include('db_con.php');                                   
+                    include('db_con.php');
                     $sql = "SELECT blogs.blog_heading AS heading, 
                                 blogs_images.image, 
                                 blogs.blog_url,
@@ -1100,19 +924,21 @@
                             INNER JOIN blogs_images ON blogs.id = blogs_images.blog_id
                             GROUP BY blogs.id  
                             ORDER BY blogs.created_at DESC 
-                            LIMIT 6"; 
+                            LIMIT 6";
                     $result = $con->query($sql);
 
-                    if ($result->num_rows > 0) {
+                    if ($result->num_rows > 0)
+                    {
                         echo '<div class="row g-4">';
 
-                        while ($row = $result->fetch_assoc()) {
+                        while ($row = $result->fetch_assoc())
+                        {
                             $heading = htmlspecialchars($row['heading']);
                             $image = htmlspecialchars($row['image']);
                             $blog_url = htmlspecialchars($row['blog_url']);
                             $created_at = date("M d, Y", strtotime($row['created_at']));
-                    ?>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6"> 
+                            ?>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                 <div class="blog-card style1 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="thumb img-shine">
                                         <a href="blog/<?= $blog_url; ?>">
@@ -1127,16 +953,18 @@
                                         <div class="content">
                                             <h4><a href="blog/<?= $blog_url; ?>"><?= $heading; ?></a></h4>
                                             <div class="link-meta">
-                                                <a href="blog/<?= $blog_url; ?>">Read more <i class="fa-regular fa-arrow-right"></i></a>
+                                                <a href="blog/<?= $blog_url; ?>">Read more <i
+                                                        class="fa-regular fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                    <?php 
+                            <?php
                         }
                         echo '</div>';
-                    } else {
+                    } else
+                    {
                         echo "<p class='text-black mt-2 text-center blog-not-found mt-4'>No blog found for today</p>";
                     }
                     ?>
@@ -1186,31 +1014,42 @@
                                         <input type="text" placeholder="Full Name" id="name" name="name" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="email" name="email" id="email" placeholder="Email Address" required  />
+                                        <input type="email" name="email" id="email" placeholder="Email Address"
+                                            required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="number" name="phone" id="phone" placeholder="Phone Number" required class="form-control">
+                                        <input type="number" name="phone" id="phone" placeholder="Phone Number" required
+                                            class="form-control">
                                     </div>
-                                   
+
                                     <div class="col-md-12">
-                                       <select  class="single-select" aria-label="Shop order" name="subject" id="subject" required >
+                                        <select class="single-select" aria-label="Shop order" name="subject"
+                                            id="subject" required>
                                             <option value="">--Select a Service--</option>
-                                            <option value="architechture &amp; design">Architechture &amp; Design </option>
-                                            <option value="business and technical consultancy">Business and Technical Consultancy </option>
-                                            <option value="blast free mining and rock excavation">Blast free mining and rock excavation</option>
+                                            <option value="architechture &amp; design">Architechture &amp; Design
+                                            </option>
+                                            <option value="business and technical consultancy">Business and Technical
+                                                Consultancy </option>
+                                            <option value="blast free mining and rock excavation">Blast free mining and
+                                                rock excavation</option>
                                             <option value="engineering solutions">Engineering solutions</option>
-                                            <option value="hotel clubs resorts golf course horticulture and landscaping">Hotel, clubs, resorts, Golf course, Horticulture &amp; landscaping</option>
-                                            
-                                            <option value="project management">Project Management ( Greenfield &amp; Brownfields)</option>
+                                            <option
+                                                value="hotel clubs resorts golf course horticulture and landscaping">
+                                                Hotel, clubs, resorts, Golf course, Horticulture &amp; landscaping
+                                            </option>
+
+                                            <option value="project management">Project Management ( Greenfield &amp;
+                                                Brownfields)</option>
                                             <option value="startups">Startups</option>
                                             <option value="talent management">Talent Management</option>
                                             <option value="trading and sourcing">Trading and sourcing</option>
-                                            
-                                            
-                                            <option value="reviving and running the sick industries">Reviving and Running the Sick industries</option>
+
+
+                                            <option value="reviving and running the sick industries">Reviving and
+                                                Running the Sick industries</option>
                                             <option value="waste management">Waste Management</option>
                                             <option value="wellness equipment">Wellness Equipment</option>
-                                            
+
                                         </select>
                                     </div>
                                     <div class="col-12">
@@ -1300,9 +1139,9 @@
     </div>
 
     <!-- Footer Section    S T A R T -->
-   <?php
-        include('footer.php');
-   ?>
+    <?php
+    include('footer.php');
+    ?>
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--<< Bootstrap Js >>-->
@@ -1331,11 +1170,11 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-    
-   <script>
-       
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <script>
+
         var input = document.querySelector("#phone");
         var iti = window.intlTelInput(input, {
             initialCountry: "in",
@@ -1344,9 +1183,9 @@
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
         });
 
-        $(document).ready(function() {
-            $('#enquiryForm').submit(function(e) {
-                e.preventDefault(); 
+        $(document).ready(function () {
+            $('#enquiryForm').submit(function (e) {
+                e.preventDefault();
                 var fullPhoneNumber = iti.getNumber();
                 var formData = $(this).serialize() + "&phone=" + encodeURIComponent(fullPhoneNumber);
 
@@ -1354,15 +1193,15 @@
                     url: 'save_contact.php',
                     type: 'POST',
                     data: formData,
-                    success: function(response) {
+                    success: function (response) {
                         if (response == 'success') {
                             Swal.fire({
                                 icon: 'success',
                                 title: 'Message Sent!',
                                 text: 'Your message has been sent successfully.',
-                            }).then(function() {
+                            }).then(function () {
                                 $('#enquiryForm')[0].reset();
-                                iti.setNumber(""); 
+                                iti.setNumber("");
                             });
                         } else {
                             Swal.fire({
@@ -1372,7 +1211,7 @@
                             });
                         }
                     },
-                    error: function() {
+                    error: function () {
                         Swal.fire({
                             icon: 'error',
                             title: 'Oops...',

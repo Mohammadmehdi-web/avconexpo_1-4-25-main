@@ -33,42 +33,42 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
-    #fadeInUp {
-        font-size: 18px;
-        font-weight: bold;
-    }
+        #fadeInUp {
+            font-size: 18px;
+            font-weight: bold;
+        }
 
-    .project-details-wrapper .details-content .check-list {
+        .project-details-wrapper .details-content .check-list {
 
-        margin-left: 7px;
-    }
+            margin-left: 7px;
+        }
 
-    .section-padding {
-        padding: 50px 0;
-    }
+        .section-padding {
+            padding: 50px 0;
+        }
 
-    .service-card.style1 .content .text {
+        .service-card.style1 .content .text {
 
-        font-size: 15px;
-        text-align: justify;
-    }
+            font-size: 15px;
+            text-align: justify;
+        }
 
-    .project-details-wrapper .details-image img {
+        .project-details-wrapper .details-image img {
 
-        height: 400px;
-        object-fit: cover;
-    }
+            height: 400px;
+            object-fit: cover;
+        }
 
-    .project-details-wrapper .details-content .check-list li {
-        font-size: 15px;
+        .project-details-wrapper .details-content .check-list li {
+            font-size: 15px;
 
-        color: #2e2f30;
+            color: #2e2f30;
 
-    }
+        }
 
-    .bulk-hire {
-        color: #f15e22;
-    }
+        .bulk-hire {
+            color: #f15e22;
+        }
     </style>
 </head>
 
@@ -76,8 +76,8 @@
 
     <!-- Header Section Start -->
     <?PHP
-        include('header.php');
-   ?>
+    include('header.php');
+    ?>
 
     <!-- Search Area Start -->
     <div class="search-wrap">
@@ -132,7 +132,10 @@
                                 Waste Management
                             </h3>
                             <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align:justify;">
-                               Enery Recovery Technology - Zero-Residue Conversion of Unsegregated Municipal Solid Waste & Hazardous Bio-medical Waste using ERT (Energy Recovery Technology).
+                                At AVCONEXPO, we utilize Energy Recovery Technology (ERT) to achieve zero-residue
+                                conversion of unsegregated municipal solid waste and hazardous bio-medical waste. Our
+                                advanced ERT solutions ensure efficient waste-to-energy conversion, promoting
+                                sustainability, environmental protection, and resource optimization. 
                             </p>
                         </div>
                         <div class="col-lg-4">
@@ -154,10 +157,12 @@
                                     </li>
                                     <li>
                                         <span> Social Media Links:</span> <span class="social-links">
-                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i
+                                                    class="fab fa-facebook-f"></i></a>
                                             <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                            <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
+                                          
+                                            <a href="https://www.linkedin.com/company/avconexpo/"><i
+                                                    class="fab fa-linkedin-in"></i></a>
                                         </span>
                                     </li>
                                 </ul>
@@ -664,7 +669,7 @@
                     </div>
                     <div class="row mt-5">
                         <h3 class="wow fadeInUp" data-wow-delay=".6s" id="fadeInUp">
-                           Safety Features Of ERT Plants 
+                            Safety Features Of ERT Plants
                         </h3>
                         <div class="col-xl-12 col-lg-6 col-md-6 ">
                             <ul class="check-list wow fadeInUp" data-wow-delay=".3s">
@@ -677,7 +682,8 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    No pollution control system is required. control systems are provided for monitoring and feed back.
+                                    No pollution control system is required. control systems are provided for monitoring
+                                    and feed back.
                                 </li>
                                 <li>
                                     <span>
@@ -688,7 +694,8 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    There is no direct exposure for the staff, since all operations can be monitored remotely.
+                                    There is no direct exposure for the staff, since all operations can be monitored
+                                    remotely.
                                 </li>
                                 <li>
                                     <span>
@@ -699,7 +706,8 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    There is no reason to cause back fire, as the process is chemical reaction and not burning.
+                                    There is no reason to cause back fire, as the process is chemical reaction and not
+                                    burning.
                                 </li>
                                 <li>
                                     <span>
@@ -721,7 +729,8 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    The maximum temperature requirement is 350°c to 500°c hence very low energy is consumed.
+                                    The maximum temperature requirement is 350°c to 500°c hence very low energy is
+                                    consumed.
                                 </li>
                                 <li>
                                     <span>
@@ -745,8 +754,8 @@
 
     <!-- Footer Section    S T A R T -->
     <?php
-        include('footer.php');
-   ?>
+    include('footer.php');
+    ?>
 
 
 
@@ -780,37 +789,37 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
     <script>
-    (function() {
-        function c() {
-            var b = a.contentDocument || a.contentWindow.document;
-            if (b) {
-                var d = b.createElement('script');
-                d.innerHTML =
-                    "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                b.getElementsByTagName('head')[0].appendChild(d)
-            }
-        }
-        if (document.body) {
-            var a = document.createElement('iframe');
-            a.height = 1;
-            a.width = 1;
-            a.style.position = 'absolute';
-            a.style.top = 0;
-            a.style.left = 0;
-            a.style.border = 'none';
-            a.style.visibility = 'hidden';
-            document.body.appendChild(a);
-            if ('loading' !== document.readyState) c();
-            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
-            else {
-                var e = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(b) {
-                    e(b);
-                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
+        (function () {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML =
+                        "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d)
                 }
             }
-        }
-    })();
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                    }
+                }
+            }
+        })();
     </script>
 </body>
 

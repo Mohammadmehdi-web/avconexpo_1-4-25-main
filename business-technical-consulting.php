@@ -9,7 +9,7 @@
     <meta name="author">
     <meta name="description">
     <!-- ======== Page title ============ -->
-    <title>AVCONEXPO</title>
+    <title>AVCONEXPO | Business &amp; Technical Consultancy</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/logo/favicon.png">
     <!--<< Bootstrap min.css >>-->
@@ -33,30 +33,30 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
-    #fadeInUp {
-        font-size: 18px;
-        font-weight: bold;
-    }
+        #fadeInUp {
+            font-size: 18px;
+            font-weight: bold;
+        }
 
-    .project-details-wrapper .details-content .check-list {
+        .project-details-wrapper .details-content .check-list {
 
-        margin-left: 7px;
-    }
+            margin-left: 7px;
+        }
 
-    .section-padding {
-        padding: 50px 0;
-    }
+        .section-padding {
+            padding: 50px 0;
+        }
 
-    .service-card.style1 .content .text {
+        .service-card.style1 .content .text {
 
-        font-size: 15px;
-        text-align: justify;
-    }
+            font-size: 15px;
+            text-align: justify;
+        }
 
-    .project-details-wrapper .details-image img {
-        object-fit: cover;
-        height: 400px;
-    }
+        .project-details-wrapper .details-image img {
+            object-fit: cover;
+            height: 400px;
+        }
     </style>
 </head>
 
@@ -64,8 +64,8 @@
 
     <!-- Header Section Start -->
     <?PHP
-        include('header.php');
-   ?>
+    include('header.php');
+    ?>
 
     <!-- Search Area Start -->
     <div class="search-wrap">
@@ -120,16 +120,12 @@
                                 Business and Technical Cosulting
                             </h3>
                             <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align:justify;">At AVCONEXPO, our
-                                seasoned engineers boast
-                                extensive years of experience in the various domains of engineering we specialize in.
-                                Our dedicated consulting experts craft comprehensive reports used for pivotal purposes
-                                such as product lifecycle predictions, failure analyses, product performance
-                                assessments, and precise process definitions. Trust AVCONEXPO for refined engineering
-                                insights that drive success.Nulla faucibus malesuada. In placerat feugiat eros ac
-                                tempor. Integer euismod massa sapien, et consequat enim laoreet et. Nulla sit amet nisi
-                                dapibus, gravida turpis sit amet, accumsan nisl. Fusce vel semper risus. Morbi congue
-                                eros sagittis, sodales turpis venenatis, iaculis dui. Proin ac purus sed nibh dapibus
-                                neque. scelerisque sed quis ante.
+                                highly skilled engineers have extensive experience across various engineering fields.
+                                Our expert consultants prepare detailed and insightful reports that help businesses with
+                                predicting product lifespan, identifying and solving technical issues, evaluating
+                                performance, and improving processes for better efficiency. With AVCONEXPO, you gain
+                                access to precise, practical, and innovative engineering solutions that drive long-term
+                                success.
                             </p>
                         </div>
                         <div class="col-lg-4">
@@ -151,10 +147,12 @@
                                     </li>
                                     <li>
                                         <span> Social Media Links:</span> <span class="social-links">
-                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i
+                                                    class="fab fa-facebook-f"></i></a>
                                             <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                            <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
+
+                                            <a href="https://www.linkedin.com/company/avconexpo/"><i
+                                                    class="fab fa-linkedin-in"></i></a>
                                         </span>
                                     </li>
                                 </ul>
@@ -346,7 +344,7 @@
                                 <div class="content">
                                     <h4>FMCG</h4>
                                     <p class="text">Food and personal care products.</p>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -358,7 +356,7 @@
                                 <div class="content">
                                     <h4>Beverages</h4>
                                     <p class="text">Water, Natural juice, artificial juice.</p>
-                                   
+
                                 </div>
 
                             </div>
@@ -371,7 +369,7 @@
                                 <div class="content">
                                     <h4>Breweries</h4>
                                     <p class="text">ENA, RS, Bio-Ethanol, Bio-Diesel</p>
-                                   
+
                                 </div>
 
                             </div>
@@ -386,8 +384,9 @@
                                 </div>
                                 <div class="content">
                                     <h4>Dairy</h4>
-                                    <p class="text">Yogurt, fresh milk, UHT, Powder plant, Ghee manufacturing and Packaging</p>
-                                   
+                                    <p class="text">Yogurt, fresh milk, UHT, Powder plant, Ghee manufacturing and
+                                        Packaging</p>
+
                                 </div>
                             </div>
                         </div>
@@ -399,7 +398,7 @@
                                 <div class="content">
                                     <h4>Packaging</h4>
                                     <p class="text">Rigid and Flexi Injection, blow and extension moulding.</p>
-                                    
+
                                 </div>
 
                             </div>
@@ -411,8 +410,9 @@
                                 </div>
                                 <div class="content">
                                     <h4>Utility</h4>
-                                    <p class="text">Boilers, chillers, computers, WTP, ETP, cooling towers, compressors.</p>
-                                    
+                                    <p class="text">Boilers, chillers, computers, WTP, ETP, cooling towers, compressors.
+                                    </p>
+
                                 </div>
 
                             </div>
@@ -425,8 +425,8 @@
 
     <!-- Footer Section    S T A R T -->
     <?php
-        include('footer.php');
-   ?>
+    include('footer.php');
+    ?>
 
 
 
@@ -460,37 +460,37 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
     <script>
-    (function() {
-        function c() {
-            var b = a.contentDocument || a.contentWindow.document;
-            if (b) {
-                var d = b.createElement('script');
-                d.innerHTML =
-                    "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                b.getElementsByTagName('head')[0].appendChild(d)
-            }
-        }
-        if (document.body) {
-            var a = document.createElement('iframe');
-            a.height = 1;
-            a.width = 1;
-            a.style.position = 'absolute';
-            a.style.top = 0;
-            a.style.left = 0;
-            a.style.border = 'none';
-            a.style.visibility = 'hidden';
-            document.body.appendChild(a);
-            if ('loading' !== document.readyState) c();
-            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
-            else {
-                var e = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(b) {
-                    e(b);
-                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
+        (function () {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML =
+                        "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d)
                 }
             }
-        }
-    })();
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                    }
+                }
+            }
+        })();
     </script>
 </body>
 

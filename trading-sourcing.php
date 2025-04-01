@@ -33,31 +33,31 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
-    #fadeInUp {
-        font-size: 18px;
-        font-weight: bold;
-    }
+        #fadeInUp {
+            font-size: 18px;
+            font-weight: bold;
+        }
 
-    .project-details-wrapper .details-content .check-list {
+        .project-details-wrapper .details-content .check-list {
 
-        margin-left: 7px;
-    }
+            margin-left: 7px;
+        }
 
-    .section-padding {
-        padding: 50px 0;
-    }
+        .section-padding {
+            padding: 50px 0;
+        }
 
-    .service-card.style1 .content .text {
+        .service-card.style1 .content .text {
 
-        font-size: 15px;
-        text-align: justify;
-    }
+            font-size: 15px;
+            text-align: justify;
+        }
 
-    .project-details-wrapper .details-image img {
+        .project-details-wrapper .details-image img {
 
-        height: 400px;
-        object-fit: cover;
-    }
+            height: 400px;
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -65,8 +65,8 @@
 
     <!-- Header Section Start -->
     <?PHP
-        include('header.php');
-   ?>
+    include('header.php');
+    ?>
 
     <!-- Search Area Start -->
     <div class="search-wrap">
@@ -100,7 +100,7 @@
                         <i class="fa-regular fa-slash-forward"></i>
                     </li>
                     <li>
-                    Ecotourism
+                        Ecotourism
                     </li>
                 </ul>
             </div>
@@ -118,14 +118,14 @@
                     <div class="row g-4 justify-content-between">
                         <div class="col-lg-7">
                             <h3 class="wow fadeInUp" data-wow-delay=".3s">
-                            Ecotourism
+                                Ecotourism
                             </h3>
                             <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align:justify;">
-                                AVCONEXPO offers its clients comprehensive and satisfying sourcing solutions, with the
-                                help of its well-connected network of manufacturing companies and infrastructure.
-                                AVCONEXPO’ focus is on meeting the client’s requirements by offering competitive prices
-                                for any kind of products, ensuring outstanding quality and adhering to stipulated
-                                shipment deadlines.
+                                At AVCONEXPO, we are dedicated to developing and promoting ecotourism that fosters
+                                environmental conservation, cultural preservation, and community empowerment. Our
+                                approach to ecotourism integrates sustainable practices, eco-friendly infrastructure,
+                                and responsible tourism to create travel experiences that are both enriching and
+                                environmentally conscious.
                             </p>
                         </div>
                         <div class="col-lg-4">
@@ -146,11 +146,13 @@
                                                 data-cfemail="consult@avconexpo.com">consult@avconexpo.com</span></a>
                                     </li>
                                     <li>
-                                       <span> Social Media Links:</span> <span class="social-links">
-                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
+                                        <span> Social Media Links:</span> <span class="social-links">
+                                            <a href="https://www.facebook.com/people/AVCONEXPO/"><i
+                                                    class="fab fa-facebook-f"></i></a>
                                             <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                            <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
+                                            
+                                            <a href="https://www.linkedin.com/company/avconexpo/"><i
+                                                    class="fab fa-linkedin-in"></i></a>
                                         </span>
                                     </li>
                                 </ul>
@@ -160,14 +162,9 @@
                     <div class="row">
                         <div class="row col-12">
                             <h3 class="mt-3 wow fadeInUp" data-wow-delay=".6s" id="fadeInUp">
-                                We also have:
+                            Our Ecotourism Approach
                             </h3>
-                            <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align:justify;">
-                                Through proper communication with the clients about the product, we take
-                                responsibility
-                                to source products of high quality, impeccable packaging and most importantly timely
-                                delivery.
-                            </p>
+                           
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 ">
                             <ul class="check-list wow fadeInUp" data-wow-delay=".3s">
@@ -180,7 +177,7 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Optimally balanced price, performance and risk.
+                                    Sustainable Tourism Planning.
                                 </li>
                                 <li>
                                     <span>
@@ -191,7 +188,7 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Collaborate with suppliers and leverage their innovation.
+                                    Wildlife & Biodiversity Conservation.
                                 </li>
                                 <li>
                                     <span>
@@ -202,9 +199,9 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Address simple categories, and large complex ones with ease.
+                                    Eco-Lodges & Sustainable Accommodations.
                                 </li>
-                               
+
                             </ul>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
@@ -219,7 +216,7 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Achieve broad geographic coverage with multi-currency capabilities.
+                                    Community-Based Tourism.
                                 </li>
                                 <li>
                                     <span>
@@ -230,7 +227,7 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Enable supplier discovery and ensure suppliers are qualified.
+                                    Environmental Education & Awareness.
                                 </li>
                                 <li>
                                     <span>
@@ -241,7 +238,7 @@
                                                 fill="#273339" />
                                         </svg>
                                     </span>
-                                    Reduce sourcing cycle time.
+                                    Carbon Footprint Reduction Strategies .
                                 </li>
                             </ul>
                         </div>
@@ -254,8 +251,8 @@
 
     <!-- Footer Section    S T A R T -->
     <?php
-        include('footer.php');
-   ?>
+    include('footer.php');
+    ?>
 
 
 
@@ -289,37 +286,37 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
     <script>
-    (function() {
-        function c() {
-            var b = a.contentDocument || a.contentWindow.document;
-            if (b) {
-                var d = b.createElement('script');
-                d.innerHTML =
-                    "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                b.getElementsByTagName('head')[0].appendChild(d)
-            }
-        }
-        if (document.body) {
-            var a = document.createElement('iframe');
-            a.height = 1;
-            a.width = 1;
-            a.style.position = 'absolute';
-            a.style.top = 0;
-            a.style.left = 0;
-            a.style.border = 'none';
-            a.style.visibility = 'hidden';
-            document.body.appendChild(a);
-            if ('loading' !== document.readyState) c();
-            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
-            else {
-                var e = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(b) {
-                    e(b);
-                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
+        (function () {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML =
+                        "window.__CF$cv$params={r:'91772cba0ea2185a',t:'MTc0MDQ4MTA0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d)
                 }
             }
-        }
-    })();
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                    }
+                }
+            }
+        })();
     </script>
 </body>
 

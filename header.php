@@ -3,31 +3,7 @@
         margin-left: -12px;
     }
  </style>
- <!-- Preloader Start -->
-  <!--<div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="txt-loading">
-                <img src="assets/img/logo/logo.png" alt="logo-img" />
-            </div>
-            <p class="text-center">Loading</p>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>-->
+
 
     <!-- Mouse Cursor Start -->
     <div class="mouse-cursor cursor-outer"></div>
@@ -99,7 +75,7 @@
                         <div class="social-icon d-flex align-items-center">
                             <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                           
                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
@@ -117,7 +93,7 @@
                         <li>
                             <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                           
                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
                         </li>
                         <li class="text-white line">|</li>
@@ -184,14 +160,7 @@
                                                 <li>
                                                     <a href="trading-sourcing.php">Ecotourism</a>
                                                 </li>
-                                                <!-- <li><a href="engineering-solutions.php">Engineering solutions</a></li>
-                                                 
-                                                <li>
-                                                    <a href="fmcg.php">FMCG | Beverages | Breweries | Dairy</a>
-                                                </li>
-                                                <li>
-                                                    <a href="quality.php">Quality Assurance & Factory Audits</a>
-                                                </li> -->
+                                              
                                             </ul>
                                         </li>
                                         <li>

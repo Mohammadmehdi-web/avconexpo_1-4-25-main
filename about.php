@@ -33,54 +33,80 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
-   
+
     <style>
-    .about-wrapper.style3 .about-content .checklist-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 17px;
-        padding: 0px;
-        margin-top: 40px;
-        border-bottom: 1px solid white;
-        border: 1px solid white;
-        background-color: white;
-        font-size: 14px;
-    }
+        .about-wrapper.style3 .about-content .checklist-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            padding: 0px;
+            margin-top: 40px;
+            border-bottom: 1px solid white;
+            border: 1px solid white;
+            background-color: white;
+            font-size: 14px;
+        }
 
-    .counter-box-card.style3 .counter {
+        .counter-box-card.style3 .counter {
 
-        font-size: 36px;
+            font-size: 36px;
 
-        line-height: 27px;
-    }
+            line-height: 27px;
+        }
 
-    .about-wrapper.style1 .about-thumb .counter-box p {
-        font-weight: 1000;
+        .about-wrapper.style1 .about-thumb .counter-box p {
+            font-weight: 1000;
 
-        color: #f15e22;
-    }
+            color: #f15e22;
+        }
 
-    .about-wrapper.style1 .about-thumb .counter-box h2 {
-        -webkit-text-stroke-color: #f15e22;
-    }
-    .testimonial-card.style3 .testimonial-header .profile .thumb img {
-        max-width: 86%;
-    }
-    .checklist-wrapper img{
-        height:200px;
-        width:100%;
-        object-fit:cover;
-    }
-    .about-wrapper.style1 .about-content .checklist-wrapper {
-        margin-top: 0px; 
-    
-        padding-bottom: 0px; 
-        border-bottom: 0px solid var(--border);
-    }
-    .about-wrapper.style1 .about-content .section-title {
-    
-     border-bottom: 0px solid var(--border); 
-    }
+        .about-wrapper.style1 .about-thumb .counter-box h2 {
+            -webkit-text-stroke-color: #f15e22;
+        }
+
+        .testimonial-card.style3 .testimonial-header .profile .thumb img {
+            max-width: 86%;
+        }
+
+        .checklist-wrapper img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .about-wrapper.style1 .about-content .checklist-wrapper {
+            margin-top: 0px;
+
+            padding-bottom: 0px;
+            border-bottom: 0px solid var(--border);
+        }
+
+        .about-wrapper.style1 .about-content .section-title {
+
+            border-bottom: 0px solid var(--border);
+        }
+
+        .profile-meta .thumb img {
+            height: 90px;
+            width: 90px;
+        }
+
+
+        .service-card.style1 .content .text {
+            text-align: justify;
+        }
+
+        .designation {
+            color: #f15e22;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .service-card.style1 .content h4 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -88,8 +114,8 @@
 
     <!-- Header Section Start -->
     <?php
-        include('header.php');
-   ?>
+    include('header.php');
+    ?>
 
     <!-- Search Area Start -->
     <div class="search-wrap">
@@ -179,114 +205,7 @@
         </div>
     </section>
 
-<!-- Marquee Section 
-    <div class="marquee-section mb-5">
-        <div class="mycustom-marque">
-            <div class="scrolling-wrap">
-                <div class="comm style1">
-                    <div class="cmn-textslide style2">Modern Equipment</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Global Presence</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Eco Solutions</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Modern Equipment</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="comm style1">
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Global Presence</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Eco Solutions</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Modern Equipment</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="comm style1">
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Global Presence</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style2">Eco Solutions</div>
-                    <div class="line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                    <div class="cmn-textslide style1">Global Presence</div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="54" viewBox="0 0 50 54" fill="none">
-                            <path
-                                d="M29.703 54H19.802V37.5L5.44554 45L0 36L14.8515 26.5L0 17.5L5.44554 8.5L19.802 17.5V0H29.703V17.5L44.5545 8.5L50 17.5L35.6436 27.5L50 37.5L44.5545 45L29.703 36V54Z"
-                                fill="#AEC0C9"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
+
     <!-- Core Feature Section S T A R T -->
     <section class="core-feature-section section-padding bg-color1 pt-0">
         <div class="container">
@@ -385,10 +304,10 @@
                                     the best engineering solutions because we are affiliated with a pool of technical
                                     experts which include Technologist, Engineers, Energy conservator, and
                                     System/Process Engineer.</p>
-<p class="wow fadeInUp" data-wow-delay=".5s" style="text-align: justify">
- We deliver our services and solutions to a
+                                <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align: justify">
+                                    We deliver our services and solutions to a
                                     diversified base of over 21 customers across multiple industries.
-</p>
+                                </p>
                             </div>
 
                             <div class="checklist-wrapper">
@@ -653,7 +572,7 @@
 
                             </div>
                         </div>
-                       
+
                         <div class="col-xl-4 col-md-6">
                             <div class="service-card style1">
                                 <div class="thumb"><img src="assets/img/team/Jean-De-Dieu.png" alt="thumb">
@@ -792,76 +711,69 @@
     </section>
 
     <!-- Testimonial Section S T A R T -->
-    <section class="testimonial-section bg-color1 fix">
+    <section class="testimonial-section fix pt-100 pb-100">
         <div class="container">
-            <div class="testimonial-wrapper style3">
-                <div class="row g-5">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="testimonial-thumb">
-                            <div class="thumb">
-                                <img src="assets/img/testimonial/testimonialThumb3_1.jpg" alt="thumb"
-                                    class="wow img-custom-anim-left">
+            <div class="testimonial-wrapper style1 margin-minus-bottom">
+                <div class="row g-4">
+                    <div class="col-xl-5 col-md-6">
+                        <div class="testimonial-content">
+                            <div class="section-title text-left">
+                                <span class="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg"
+                                        alt="icon">Clients Feedback</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Some Of Our Happy Clients Says</h2>
+                            </div>
+
+
+                            <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".4s">
+                                <button data-slider-prev="#testimonialSliderOne" class="slider-arrow slider-prev"><i
+                                        class="fa-sharp fa-regular fa-arrow-left-long"></i></button>
+                                <button data-slider-next="#testimonialSliderOne" class="slider-arrow slider-next"><i
+                                        class="fa-regular fa-arrow-right-long"></i></button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-6">
-                        <div class="slider-area testimonialSliderThree section-padding fix">
-                            <div class="section-title text-left mxw-412">
-                                <span class="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg"
-                                        alt="icon">Clients Feedback</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Some Of Our Respected Happy Clients Says
-                                </h2>
-                            </div>
-
-                            <div class="swiper gt-slider" id="testimonialSliderThree"
-                                data-slider-options='{"loop": true,"autoplay": false,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1},"768":{"slidesPerView":1},"992":{"slidesPerView":1},"1200":{"slidesPerView":2}}}'>
+                    <div class="col-xl-7 col-md-6">
+                        <div class="slider-area testimonialSliderOne">
+                            <div class="swiper gt-slider" id="testimonialSliderOne"
+                                data-slider-options='{"loop": true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2},"768":{"slidesPerView":2},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
                                 <div class="swiper-wrapper">
                                     <?php
-                                        include('db_con.php');
-                                        $result = $con->query("SELECT paragraph, name, address, image FROM add_price");
-                                        while ($row = $result->fetch_assoc()):
+                                    include('db_con.php');
+                                    $result = $con->query("SELECT paragraph, name, address, image FROM add_price");
                                     ?>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-card style3">
-                                            <div class="testimonial-header">
-                                                <div class="profile">
-                                                    <div class="thumb">
-                                                        <img src="admin/testimonials_uploads/<?php echo htmlspecialchars($row['image']); ?>"
-                                                            alt="thumb" width="100px">
+                                    <?php while ($row = $result->fetch_assoc()): ?>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-card style1">
+                                                <div class="testimonial-content">
+                                                    <div class="icon-wrapper">
+                                                        <div class="star">
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                        </div>
+                                                        <div class="quote-icon"><img src="assets/img/icon/QuoteIcon1_1.svg"
+                                                                alt="ixon"></div>
                                                     </div>
-                                                    <div class="content">
-                                                        <div class="name"><?php echo $row['name']; ?></div>
+                                                    <p class="text"> <?php echo htmlspecialchars($row['paragraph']); ?></p>
+                                                    <div class="shape"><img
+                                                            src="assets/img/shape/testimonialCardShape1_1.png" alt="shape">
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p class="text">
-                                                    <?php echo $row['paragraph']; ?>
-                                                </p>
+                                                <div class="profile-meta wow fadeInUp" data-wow-delay="0.5s">
+                                                    <div class="thumb"><img
+                                                            src="admin/testimonials_uploads/<?php echo htmlspecialchars($row['image']); ?>"
+                                                            alt="thumb"></div>
+                                                    <div class="content">
+                                                        <div class="name"><?php echo htmlspecialchars($row['name']); ?>
+                                                        </div>
 
-                                                <div class="icon-wrapper">
-                                                    <div class="star">
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                                        <i class="fa-sharp fa-solid fa-star"></i>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
                                     <?php endwhile; ?>
-                                    
-                                </div>
-
-                                <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".4s">
-                                    <button data-slider-prev="#testimonialSliderThree"
-                                        class="slider-arrow slider-prev"><i
-                                            class="fa-sharp fa-regular fa-arrow-left-long"></i></button>
-                                    <button data-slider-next="#testimonialSliderThree"
-                                        class="slider-arrow slider-next"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -871,7 +783,7 @@
         </div>
     </section>
     <?php
-        include('footer.php');
+    include('footer.php');
     ?>
 
 
@@ -904,39 +816,39 @@
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
     <script>
-    (function() {
-        function c() {
-            var b = a.contentDocument || a.contentWindow.document;
-            if (b) {
-                var d = b.createElement('script');
-                d.innerHTML =
-                    "window.__CF$cv$params={r:'91772ca92df7185a',t:'MTc0MDQ4MTA0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                b.getElementsByTagName('head')[0].appendChild(d)
-            }
-        }
-        if (document.body) {
-            var a = document.createElement('iframe');
-            a.height = 1;
-            a.width = 1;
-            a.style.position = 'absolute';
-            a.style.top = 0;
-            a.style.left = 0;
-            a.style.border = 'none';
-            a.style.visibility = 'hidden';
-            document.body.appendChild(a);
-            if ('loading' !== document.readyState) c();
-            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
-            else {
-                var e = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(b) {
-                    e(b);
-                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
+        (function () {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML =
+                        "window.__CF$cv$params={r:'91772ca92df7185a',t:'MTc0MDQ4MTA0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/b0e4a89976ce/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d)
                 }
             }
-        }
-    })();
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                    }
+                }
+            }
+        })();
     </script>
-    
+
 </body>
 
 </html>

@@ -131,12 +131,7 @@
                                 Staffing
                             </h3>
                             <p class="wow fadeInUp" data-wow-delay=".5s" style="text-align:justify;">
-                                We are a premier provider of top talent at all levels, founded and managed by a team of
-                                senior industry professionals with decades of experience. Our expertise ensures
-                                strategic talent acquisition, workforce optimization, and tailored recruitment solutions
-                                that meet the evolving needs of businesses across various industries. We specialize in
-                                sourcing, screening, and placing high-caliber professionals, driving organizational
-                                success through quality, efficiency, and expertise.
+                            At AVCONEXPO, we are dedicated to developing and promoting ecotourism that fosters environmental conservation, cultural preservation, and community empowerment. Our approach to ecotourism integrates sustainable practices, eco-friendly infrastructure, and responsible tourism to create travel experiences that are both enriching and environmentally conscious.
                             </p>
                         </div>
                         <div class="col-lg-4">
@@ -160,7 +155,7 @@
                                         <span> Social Media Links:</span> <span class="social-links">
                                             <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
                                             <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
+                                            
                                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
                                         </span>
                                     </li>

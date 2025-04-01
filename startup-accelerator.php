@@ -161,7 +161,7 @@
                                         <span> Social Media Links:</span> <span class="social-links">
                                             <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
                                             <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
+                                            
                                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
                                         </span>
                                     </li>
