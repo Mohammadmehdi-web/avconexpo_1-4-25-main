@@ -3,7 +3,7 @@
     $servername = 'localhost';
     $username = 'root';
     $password = '';
-    $database = "avconexpo1_db";
+    $database = "avconexpo_db";
 
     $con = new mysqli($servername, $username, $password, $database);
 
