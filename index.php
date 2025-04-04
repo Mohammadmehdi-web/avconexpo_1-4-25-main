@@ -176,7 +176,7 @@
                             </div>
                             <div class="wcu-counter">
                                 <h5 class="counter">
-                                    <span class="counter-number">35</span>+
+                                    <span class="counter-number">20</span>+
                                 </h5>
                                 <p class="text">
                                     Years <br />
@@ -491,7 +491,7 @@
                                         <img width="50" height="50"
                                             src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/FFFFFF/external-star-success-flatart-icons-solid-flatarticons.png"
                                             alt="star-success" />
-                                        <span class="counter-number"> 12 </span>+
+                                        <span class="counter-number"> 20 </span>+
                                     </div>
                                     <p class="text text-capitalize">Years Of Experience</p>
                                 </div>

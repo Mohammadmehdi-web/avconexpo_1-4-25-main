@@ -45,7 +45,7 @@
                            
                            <td><a type="submit" class="btn btn-primary shadow btn-xs sharp me-1" href="banner_edit.php?user_id=<?php echo $row['id']; ?>" style="color:white;"><i class="fas fa-pencil-alt"></i></a></td>
                            <td>
-                              <form method="POST" action="user_dlt.php">
+                              <form method="POST" action="banner_dlt.php">
                                  <input type="hidden" name="user_id" value="<?php echo $row['id'];?>">
                                  <button type="submit" class="btn btn-danger shadow btn-xs sharp"name="delete" onclick="return confirm('are you sure?')"><i class="fa fa-trash"></i></button>
                               </form>

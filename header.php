@@ -75,8 +75,8 @@
                         <div class="social-icon d-flex align-items-center">
                             <a href="https://www.facebook.com/people/AVCONEXPO/"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                           
                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -95,6 +95,7 @@
                             <a href="#"><i class="fab fa-instagram"></i></a>
                            
                             <a href="https://www.linkedin.com/company/avconexpo/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li class="text-white line">|</li>
                         <li>
